@@ -1,8 +1,8 @@
 function createConsultationForm() {
-  const form = FormApp.create('AIコンシェルジュ ご相談フォーム');
+  const form = FormApp.create('AI伴走パートナー ご相談フォーム');
 
   form
-    .setDescription('AIコンシェルジュへのご相談はこちらからお送りください。')
+    .setDescription('AI伴走パートナーへのご相談はこちらからお送りください。')
     .setConfirmationMessage('お問い合わせありがとうございます。内容を確認のうえ、ご連絡いたします。');
 
   const emailValidation = FormApp.createTextValidation()
